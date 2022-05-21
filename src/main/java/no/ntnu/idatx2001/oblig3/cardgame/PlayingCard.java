@@ -3,14 +3,14 @@ package no.ntnu.idatx2001.oblig3.cardgame;
 /**
  * Represents a playing card. A playing card has a number (face) between
  * 1 and 13, where 1 is called an Ace, 11 = Knight, 12 = Queen and 13 = King.
- * The card can also be one of 4 suits: Spade, Heart, Diamonds and Clubs.
+ * The card can also be one of 4 suits: Spades, Hearts, Diamonds and Clubs.
  *
  * @author ntnu
- * @version 2021-03-13
+ * @version 1
  */
 public class PlayingCard {
 
-  private final char suit; // 'S'=spade, 'H'=heart, 'D'=diamonds, 'C'=clubs
+  private final char suit; // 'S'=spades, 'H'=hearts, 'D'=diamonds, 'C'=clubs
   private final int face; // a number between 1 and 13
 
   /**
@@ -20,7 +20,7 @@ public class PlayingCard {
    * number 1.
    *
    * @param suit The suit of the card, as a single character. 'S' for Spades,
-   *             'H' for Heart, 'D' for Diamonds and 'C' for clubs
+   *             'H' for Hearts, 'D' for Diamonds and 'C' for clubs
    * @param face The face value of the card, an integer between 1 and 13
    */
   public PlayingCard(char suit, int face) {
